@@ -24,10 +24,10 @@ setup(name='funniest',
             'markdown',
       ],
       test_suite='nose.collector',
-      tests_require=['nose'],
-      include_package_data=True,
+      tests_require=['nose', 'nose-cover3'],
       scripts=['bin/funniest-joke'],
       entry_points = {
           'console_scripts': ['funniest-joke=funniest.command_line:main'],
       },
+      include_package_data=True,
       zip_safe=False)

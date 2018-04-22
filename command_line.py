@@ -1,4 +1,5 @@
-import funniest
+from . import joke
 
 def main():
-    print funniest.joke()
+    print joke()
+
