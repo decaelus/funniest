@@ -26,4 +26,5 @@ setup(name='funniest',
       test_suite='nose.collector',
       tests_require=['nose'],
       include_package_data=True,
+      scripts=['bin/funniest-joke'],
       zip_safe=False)
