@@ -1,4 +1,6 @@
+MANIFEST.in
 README.md
+README.rst
 setup.py
 funniest/__init__.py
 funniest/text.py
